@@ -82,6 +82,7 @@ class WC_API_Dev {
 		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-report-top-sellers-controller.php' );
 		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-reports-controller.php' );
 		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-settings-controller.php' );
+		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-settings-email-controller.php' );
 		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-setting-options-controller.php' );
 		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-shipping-zones-controller.php' );
 		include_once( dirname( __FILE__ ) . '/api/class-wc-rest-dev-shipping-zone-locations-controller.php' );
@@ -124,6 +125,7 @@ class WC_API_Dev {
 			'WC_REST_Dev_Report_Sales_Controller',
 			'WC_REST_Dev_Report_Top_Sellers_Controller',
 			'WC_REST_Dev_Reports_Controller',
+			'WC_REST_Dev_Settings_Email_Controller',
 			'WC_REST_Dev_Settings_Controller',
 			'WC_REST_Dev_Setting_Options_Controller',
 			'WC_REST_Dev_Shipping_Zones_Controller',
